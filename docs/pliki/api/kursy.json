@@ -1,0 +1,37 @@
+{
+  "data": "2026-11-23",
+  "waluta_bazowa": "PLN",
+  "uwaga": "Kursy przykładowe do ćwiczeń, nie są to kursy rzeczywiste.",
+  "kursy": [
+    {
+      "kod": "EUR",
+      "nazwa": "euro",
+      "kurs": 4.25
+    },
+    {
+      "kod": "USD",
+      "nazwa": "dolar amerykański",
+      "kurs": 3.7
+    },
+    {
+      "kod": "GBP",
+      "nazwa": "funt brytyjski",
+      "kurs": 4.9
+    },
+    {
+      "kod": "CHF",
+      "nazwa": "frank szwajcarski",
+      "kurs": 4.55
+    },
+    {
+      "kod": "CZK",
+      "nazwa": "korona czeska",
+      "kurs": 0.17
+    },
+    {
+      "kod": "NOK",
+      "nazwa": "korona norweska",
+      "kurs": 0.36
+    }
+  ]
+}

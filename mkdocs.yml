@@ -1,0 +1,128 @@
+site_name: Pracownia programowania aplikacji mobilnych – INF.04
+site_description: Materiały do lekcji z przedmiotu Pracownia programowania aplikacji mobilnych (technikum, klasa IV, .NET MAUI)
+site_author: Marcin Wojciechowski
+site_url: https://belferit.github.io/pracownia-programowania-aplikacji-mobilnych/
+repo_url: https://github.com/belferit/pracownia-programowania-aplikacji-mobilnych
+
+theme:
+  name: material
+  language: pl
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Tryb ciemny
+    - scheme: slate
+      primary: deep purple
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Tryb jasny
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
+  - pymdownx.mark
+
+nav:
+  - Start: index.md
+  - Rozkład materiału: rozklad.md
+  - Start:
+      - "O dziale": start/index.md
+      - "1. BHP i organizacja pracy. Visual Studio 2026 z .NET MAUI": start/lekcja-01.md
+      - "2. Pierwsza aplikacja .NET MAUI": start/lekcja-02.md
+      - "3. Emulator Androida i dokumentowanie uruchomienia": start/lekcja-03.md
+  - XAML i układy:
+      - "O dziale": xaml/index.md
+      - "4. Składnia XAML: etykiety i przyciski": xaml/lekcja-04.md
+      - "5. Układy liniowe: StackLayout": xaml/lekcja-05.md
+      - "6. Układ siatki Grid": xaml/lekcja-06.md
+      - "7. FlexLayout, AbsoluteLayout, ScrollView i Border": xaml/lekcja-07.md
+      - "8. Obrazy w aplikacji": xaml/lekcja-08.md
+      - "9. Style i zasoby": xaml/lekcja-09.md
+      - "10. Zdarzenia: obsługa kliknięcia": xaml/lekcja-10.md
+      - "11. Pola edycyjne: Entry i Editor": xaml/lekcja-11.md
+      - "12. Kalkulator kosztów przejazdu": xaml/lekcja-12.md
+  - Kontrolki i dane:
+      - "O dziale": kontrolki/index.md
+      - "13. Przełączniki: Switch, CheckBox, RadioButton": kontrolki/lekcja-13.md
+      - "14. Wartości z zakresu: Slider, Stepper, ProgressBar": kontrolki/lekcja-14.md
+      - "15. Picker, DatePicker i TimePicker": kontrolki/lekcja-15.md
+      - "16. Galeria obrazów": kontrolki/lekcja-16.md
+      - "17. Okna dialogowe i async/await": kontrolki/lekcja-17.md
+      - "18. Wiązanie danych między kontrolkami": kontrolki/lekcja-18.md
+      - "19. BindingContext i INotifyPropertyChanged": kontrolki/lekcja-19.md
+      - "20. Konwertery wartości i wyzwalacze": kontrolki/lekcja-20.md
+      - "21. Listy: CollectionView": kontrolki/lekcja-21.md
+      - "22. Lista zakupów": kontrolki/lekcja-22.md
+      - "23. Animacje widoków": kontrolki/lekcja-23.md
+      - "24. Dźwięk w aplikacji": kontrolki/lekcja-24.md
+      - "25. Powtórka: aplikacja według projektu": kontrolki/lekcja-25.md
+      - "26. Sprawdzian praktyczny: aplikacja mobilna": kontrolki/lekcja-26.md
+  - Nawigacja:
+      - "O dziale": nawigacja/index.md
+      - "27. Wiele stron: nawigacja stosowa": nawigacja/lekcja-27.md
+      - "28. Przekazywanie danych między stronami": nawigacja/lekcja-28.md
+      - "29. Shell: zakładki i menu wysuwane": nawigacja/lekcja-29.md
+      - "30. Trasy, parametry i menu na pasku narzędzi": nawigacja/lekcja-30.md
+      - "31. Dostosowanie do platformy i urządzenia": nawigacja/lekcja-31.md
+      - "32. Przewodnik po mieście": nawigacja/lekcja-32.md
+      - "33. Tryb jasny i ciemny": nawigacja/lekcja-33.md
+  - Dane i usługi:
+      - "O dziale": dane/index.md
+      - "34. Preferencje użytkownika": dane/lekcja-34.md
+      - "35. Pliki i JSON": dane/lekcja-35.md
+      - "36. Baza SQLite, cz. 1: model i dodawanie rekordów": dane/lekcja-36.md
+      - "37. Baza SQLite, cz. 2: wyszukiwanie, edycja, usuwanie": dane/lekcja-37.md
+      - "38. Dziennik treningów": dane/lekcja-38.md
+      - "39. Dane z internetu: HttpClient i JSON": dane/lekcja-39.md
+      - "40. Wysyłanie danych i obsługa błędów sieci": dane/lekcja-40.md
+      - "41. Zegar i stoper: timer": dane/lekcja-41.md
+      - "42. Kalendarz i daty": dane/lekcja-42.md
+      - "43. Lokalizacja i uprawnienia": dane/lekcja-43.md
+      - "44. Powiadomienia": dane/lekcja-44.md
+      - "45. Czujniki urządzenia": dane/lekcja-45.md
+      - "46. Aparat i galeria zdjęć": dane/lekcja-46.md
+      - "47. Sprawdzian praktyczny: aplikacja z danymi": dane/lekcja-47.md
+  - Jakość i publikacja:
+      - "O dziale": jakosc/index.md
+      - "48. Wzorzec MVVM": jakosc/lekcja-48.md
+      - "49. MVVM z CommunityToolkit.Mvvm": jakosc/lekcja-49.md
+      - "50. Debugowanie": jakosc/lekcja-50.md
+      - "51. Testy jednostkowe w xUnit": jakosc/lekcja-51.md
+      - "52. Scenariusze testów i raport błędów": jakosc/lekcja-52.md
+      - "53. Dokumentacja: komentarze i instrukcja użytkownika": jakosc/lekcja-53.md
+      - "54. Nazwa, ikona, ekran startowy, wersja i licencje": jakosc/lekcja-54.md
+      - "55. Podpisany plik APK/AAB i Google Play": jakosc/lekcja-55.md
+      - "56. Git i GitHub w projekcie MAUI": jakosc/lekcja-56.md
+  - Podsumowanie:
+      - "O dziale": powtorka/index.md
+      - "57–60. Symulacja egzaminu INF.04": powtorka/lekcja-57.md
+      - "61–64. Projekt końcowy": powtorka/lekcja-61.md

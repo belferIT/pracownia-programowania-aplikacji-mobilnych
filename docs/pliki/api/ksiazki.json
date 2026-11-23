@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "tytul": "Pan Tadeusz",
+    "autor": "Adam Mickiewicz",
+    "rok": 1834,
+    "gatunek": "epopeja",
+    "ocena": 4.6
+  },
+  {
+    "id": 2,
+    "tytul": "Dziady cz. III",
+    "autor": "Adam Mickiewicz",
+    "rok": 1832,
+    "gatunek": "dramat",
+    "ocena": 4.2
+  },
+  {
+    "id": 3,
+    "tytul": "Lalka",
+    "autor": "Bolesław Prus",
+    "rok": 1890,
+    "gatunek": "powieść",
+    "ocena": 4.7
+  },
+  {
+    "id": 4,
+    "tytul": "Quo vadis",
+    "autor": "Henryk Sienkiewicz",
+    "rok": 1896,
+    "gatunek": "powieść",
+    "ocena": 4.5
+  },
+  {
+    "id": 5,
+    "tytul": "Krzyżacy",
+    "autor": "Henryk Sienkiewicz",
+    "rok": 1900,
+    "gatunek": "powieść",
+    "ocena": 4.4
+  },
+  {
+    "id": 6,
+    "tytul": "Wesele",
+    "autor": "Stanisław Wyspiański",
+    "rok": 1901,
+    "gatunek": "dramat",
+    "ocena": 4.0
+  },
+  {
+    "id": 7,
+    "tytul": "Chłopi",
+    "autor": "Władysław Reymont",
+    "rok": 1904,
+    "gatunek": "powieść",
+    "ocena": 4.1
+  },
+  {
+    "id": 8,
+    "tytul": "Przedwiośnie",
+    "autor": "Stefan Żeromski",
+    "rok": 1924,
+    "gatunek": "powieść",
+    "ocena": 4.3
+  },
+  {
+    "id": 9,
+    "tytul": "Ferdydurke",
+    "autor": "Witold Gombrowicz",
+    "rok": 1937,
+    "gatunek": "powieść",
+    "ocena": 3.9
+  },
+  {
+    "id": 10,
+    "tytul": "Solaris",
+    "autor": "Stanisław Lem",
+    "rok": 1961,
+    "gatunek": "powieść",
+    "ocena": 4.8
+  },
+  {
+    "id": 11,
+    "tytul": "Cyberiada",
+    "autor": "Stanisław Lem",
+    "rok": 1965,
+    "gatunek": "opowiadania",
+    "ocena": 4.6
+  },
+  {
+    "id": 12,
+    "tytul": "Zbrodnia i kara",
+    "autor": "Fiodor Dostojewski",
+    "rok": 1866,
+    "gatunek": "powieść",
+    "ocena": 4.7
+  }
+]
